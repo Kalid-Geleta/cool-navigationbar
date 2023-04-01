@@ -67,7 +67,6 @@ header nav{
         from{
 
            transform: rotateZ(0deg) ;
-
         }
         to{
 right:80%;
@@ -83,11 +82,13 @@ right:80%;
     }
     @keyframes cooll {
         from{
+opacity:0;
             right:80%;   
            transform: rotateZ(0deg) ;
 
         }
         to{
+opacity:1;
             left:50%;
             transform : rotateZ(360deg);
         }
